@@ -277,15 +277,16 @@ header {
   /* flex-wrap: wrap-reverse; */
   /* background: rebeccapurple; */
 }
+/*-----------------------------------------------IMAGE SLIDER*/
 #slider {
   overflow: hidden;
 }
 #slider figure {
   position: relative;
-  width: 100%;
+  width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s slider infinite;
+  animation: 20s slider infinite ease-in-out;
 }
 #slider figure img {
   width: 20%;
@@ -320,6 +321,7 @@ header {
     left: -400%;
   }
 }
+/*----------------------------------------------------IMAGE SLIDER*/
 .work-description {
   margin-bottom: 3rem;
 }
