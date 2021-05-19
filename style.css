@@ -271,7 +271,11 @@ header {
   line-height: 0.42;
 }
 .work-info {
-  text-align: center;
+  /* text-align: center; */
+}
+#gallerij {
+  /* flex-wrap: wrap-reverse; */
+  /* background: rebeccapurple; */
 }
 .work-description {
   margin-bottom: 3rem;
@@ -323,11 +327,11 @@ header {
   color: var(--secondary-font-color);
 }
 /*discover our menu*/
-.image-group {
+/* .image-group {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
-}
+} */
 .foto-gallerij .work-description {
   padding-top: 3rem;
   margin-bottom: 0;
@@ -481,6 +485,9 @@ footer {
   .headline {
     font-size: 5rem;
     letter-spacing: 0.8rem;
+  }
+  #gallerij {
+    /* background-color: red; */
   }
   .work-info {
     display: flex;
